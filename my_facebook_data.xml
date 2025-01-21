@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facebook>
+    <user>
+        <id>123456789</id>
+        <name>John Doe</name>
+        <email>johndoe@example.com</email>
+        <friends>
+            <friend>
+                <id>987654321</id>
+                <name>Jane Smith</name>
+            </friend>
+            <!-- Add more friends here -->
+        </friends>
+    </user>
+    <posts>
+        <post>
+            <id>1</id>
+            <content>Hello, world! This is my first post.</content>
+            <timestamp>2025-01-21T12:34:56</timestamp>
+            <likes>10</likes>
+            <comments>
+                <comment>
+                    <user_id>987654321</user_id>
+                    <content>Congratulations on your first post!</content>
+                    <timestamp>2025-01-21T12:45:00</timestamp>
+                </comment>
+                <!-- Add more comments here -->
+            </comments>
+        </post>
+        <!-- Add more posts here -->
+    </posts>
+</facebook>
